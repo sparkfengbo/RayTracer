@@ -86,6 +86,12 @@
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/color.h">
 			<Option target="RayTracer"/>
 		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/hittable.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/hittable.h">
+			<Option target="RayTracer"/>
+		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/main.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
@@ -93,6 +99,12 @@
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/ray.h">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/sphere.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/sphere.h">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/vec3.cpp">

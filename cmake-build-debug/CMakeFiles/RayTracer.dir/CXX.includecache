@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/fengbo/CLionProjects/RayTracer/color.h
+/Users/fengbo/CLionProjects/RayTracer/hittable.cpp
+hittable.h
+/Users/fengbo/CLionProjects/RayTracer/hittable.h
+
+/Users/fengbo/CLionProjects/RayTracer/hittable.h
 vec3.h
 /Users/fengbo/CLionProjects/RayTracer/vec3.h
-iostream
--
-
-/Users/fengbo/CLionProjects/RayTracer/main.cpp
-iostream
--
-color.h
-/Users/fengbo/CLionProjects/RayTracer/color.h
 ray.h
 /Users/fengbo/CLionProjects/RayTracer/ray.h
 
 /Users/fengbo/CLionProjects/RayTracer/ray.h
 vec3.h
 /Users/fengbo/CLionProjects/RayTracer/vec3.h
+
+/Users/fengbo/CLionProjects/RayTracer/sphere.cpp
+sphere.h
+/Users/fengbo/CLionProjects/RayTracer/sphere.h
+
+/Users/fengbo/CLionProjects/RayTracer/sphere.h
+hittable.h
+/Users/fengbo/CLionProjects/RayTracer/hittable.h
 
 /Users/fengbo/CLionProjects/RayTracer/vec3.h
 cmath
