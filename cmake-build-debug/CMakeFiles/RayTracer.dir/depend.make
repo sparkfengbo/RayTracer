@@ -5,25 +5,18 @@ CMakeFiles/RayTracer.dir/color.cpp.o: ../color.cpp
 CMakeFiles/RayTracer.dir/color.cpp.o: ../color.h
 CMakeFiles/RayTracer.dir/color.cpp.o: ../vec3.h
 
-CMakeFiles/RayTracer.dir/hittable.cpp.o: ../hittable.cpp
-CMakeFiles/RayTracer.dir/hittable.cpp.o: ../hittable.h
-CMakeFiles/RayTracer.dir/hittable.cpp.o: ../ray.h
-CMakeFiles/RayTracer.dir/hittable.cpp.o: ../vec3.h
-
 CMakeFiles/RayTracer.dir/main.cpp.o: ../color.h
+CMakeFiles/RayTracer.dir/main.cpp.o: ../hittable.h
+CMakeFiles/RayTracer.dir/main.cpp.o: ../hittable_list.h
 CMakeFiles/RayTracer.dir/main.cpp.o: ../main.cpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../ray.h
+CMakeFiles/RayTracer.dir/main.cpp.o: ../sphere.h
+CMakeFiles/RayTracer.dir/main.cpp.o: ../utils.h
 CMakeFiles/RayTracer.dir/main.cpp.o: ../vec3.h
 
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../ray.cpp
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../ray.h
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../vec3.h
-
-CMakeFiles/RayTracer.dir/sphere.cpp.o: ../hittable.h
-CMakeFiles/RayTracer.dir/sphere.cpp.o: ../ray.h
-CMakeFiles/RayTracer.dir/sphere.cpp.o: ../sphere.cpp
-CMakeFiles/RayTracer.dir/sphere.cpp.o: ../sphere.h
-CMakeFiles/RayTracer.dir/sphere.cpp.o: ../vec3.h
 
 CMakeFiles/RayTracer.dir/vec3.cpp.o: ../vec3.cpp
 CMakeFiles/RayTracer.dir/vec3.cpp.o: ../vec3.h

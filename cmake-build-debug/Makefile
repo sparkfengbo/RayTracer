@@ -150,33 +150,6 @@ color.cpp.s:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/color.cpp.s
 .PHONY : color.cpp.s
 
-hittable.o: hittable.cpp.o
-
-.PHONY : hittable.o
-
-# target to build an object file
-hittable.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/hittable.cpp.o
-.PHONY : hittable.cpp.o
-
-hittable.i: hittable.cpp.i
-
-.PHONY : hittable.i
-
-# target to preprocess a source file
-hittable.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/hittable.cpp.i
-.PHONY : hittable.cpp.i
-
-hittable.s: hittable.cpp.s
-
-.PHONY : hittable.s
-
-# target to generate assembly for a file
-hittable.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/hittable.cpp.s
-.PHONY : hittable.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -231,33 +204,6 @@ ray.cpp.s:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/ray.cpp.s
 .PHONY : ray.cpp.s
 
-sphere.o: sphere.cpp.o
-
-.PHONY : sphere.o
-
-# target to build an object file
-sphere.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/sphere.cpp.o
-.PHONY : sphere.cpp.o
-
-sphere.i: sphere.cpp.i
-
-.PHONY : sphere.i
-
-# target to preprocess a source file
-sphere.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/sphere.cpp.i
-.PHONY : sphere.cpp.i
-
-sphere.s: sphere.cpp.s
-
-.PHONY : sphere.s
-
-# target to generate assembly for a file
-sphere.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/sphere.cpp.s
-.PHONY : sphere.cpp.s
-
 vec3.o: vec3.cpp.o
 
 .PHONY : vec3.o
@@ -297,18 +243,12 @@ help:
 	@echo "... color.o"
 	@echo "... color.i"
 	@echo "... color.s"
-	@echo "... hittable.o"
-	@echo "... hittable.i"
-	@echo "... hittable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... ray.o"
 	@echo "... ray.i"
 	@echo "... ray.s"
-	@echo "... sphere.o"
-	@echo "... sphere.i"
-	@echo "... sphere.s"
 	@echo "... vec3.o"
 	@echo "... vec3.i"
 	@echo "... vec3.s"
