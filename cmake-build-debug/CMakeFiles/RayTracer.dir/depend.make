@@ -13,8 +13,10 @@ CMakeFiles/RayTracer.dir/main.cpp.o: ../vec3.h
 
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../ray.cpp
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../ray.h
+CMakeFiles/RayTracer.dir/ray.cpp.o: ../utils.h
 CMakeFiles/RayTracer.dir/ray.cpp.o: ../vec3.h
 
+CMakeFiles/RayTracer.dir/vec3.cpp.o: ../utils.h
 CMakeFiles/RayTracer.dir/vec3.cpp.o: ../vec3.cpp
 CMakeFiles/RayTracer.dir/vec3.cpp.o: ../vec3.h
 

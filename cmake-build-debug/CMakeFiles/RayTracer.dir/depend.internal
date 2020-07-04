@@ -14,7 +14,9 @@ CMakeFiles/RayTracer.dir/main.cpp.o
 CMakeFiles/RayTracer.dir/ray.cpp.o
  /Users/fengbo/CLionProjects/RayTracer/ray.cpp
  /Users/fengbo/CLionProjects/RayTracer/ray.h
+ /Users/fengbo/CLionProjects/RayTracer/utils.h
  /Users/fengbo/CLionProjects/RayTracer/vec3.h
 CMakeFiles/RayTracer.dir/vec3.cpp.o
+ /Users/fengbo/CLionProjects/RayTracer/utils.h
  /Users/fengbo/CLionProjects/RayTracer/vec3.cpp
  /Users/fengbo/CLionProjects/RayTracer/vec3.h
