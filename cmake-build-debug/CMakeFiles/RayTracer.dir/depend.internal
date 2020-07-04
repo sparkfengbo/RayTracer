@@ -7,16 +7,8 @@ CMakeFiles/RayTracer.dir/main.cpp.o
  /Users/fengbo/CLionProjects/RayTracer/hittable.h
  /Users/fengbo/CLionProjects/RayTracer/hittable_list.h
  /Users/fengbo/CLionProjects/RayTracer/main.cpp
+ /Users/fengbo/CLionProjects/RayTracer/material.h
  /Users/fengbo/CLionProjects/RayTracer/ray.h
  /Users/fengbo/CLionProjects/RayTracer/sphere.h
  /Users/fengbo/CLionProjects/RayTracer/utils.h
- /Users/fengbo/CLionProjects/RayTracer/vec3.h
-CMakeFiles/RayTracer.dir/ray.cpp.o
- /Users/fengbo/CLionProjects/RayTracer/ray.cpp
- /Users/fengbo/CLionProjects/RayTracer/ray.h
- /Users/fengbo/CLionProjects/RayTracer/utils.h
- /Users/fengbo/CLionProjects/RayTracer/vec3.h
-CMakeFiles/RayTracer.dir/vec3.cpp.o
- /Users/fengbo/CLionProjects/RayTracer/utils.h
- /Users/fengbo/CLionProjects/RayTracer/vec3.cpp
  /Users/fengbo/CLionProjects/RayTracer/vec3.h

@@ -25,6 +25,8 @@ vec3.h
 /Users/fengbo/CLionProjects/RayTracer/vec3.h
 ray.h
 /Users/fengbo/CLionProjects/RayTracer/ray.h
+memory
+-
 
 /Users/fengbo/CLionProjects/RayTracer/hittable_list.h
 hittable.h
@@ -49,6 +51,14 @@ sphere.h
 /Users/fengbo/CLionProjects/RayTracer/sphere.h
 camera.h
 /Users/fengbo/CLionProjects/RayTracer/camera.h
+material.h
+/Users/fengbo/CLionProjects/RayTracer/material.h
+
+/Users/fengbo/CLionProjects/RayTracer/material.h
+ray.h
+/Users/fengbo/CLionProjects/RayTracer/ray.h
+hittable.h
+/Users/fengbo/CLionProjects/RayTracer/hittable.h
 
 /Users/fengbo/CLionProjects/RayTracer/ray.h
 vec3.h

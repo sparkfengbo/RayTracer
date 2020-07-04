@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fengbo/CLionProjects/RayTracer/main.cpp" "/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/main.cpp.o"
-  "/Users/fengbo/CLionProjects/RayTracer/ray.cpp" "/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/ray.cpp.o"
-  "/Users/fengbo/CLionProjects/RayTracer/vec3.cpp" "/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/vec3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

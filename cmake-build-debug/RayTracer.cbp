@@ -92,7 +92,7 @@
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/main.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/ray.cpp">
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/material.h">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/ray.h">
@@ -102,9 +102,6 @@
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/utils.h">
-			<Option target="RayTracer"/>
-		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/vec3.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/vec3.h">
