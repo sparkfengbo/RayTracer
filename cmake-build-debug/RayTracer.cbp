@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/color.cpp">
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/camera.h">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/color.h">

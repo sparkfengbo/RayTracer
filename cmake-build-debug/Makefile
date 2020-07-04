@@ -123,33 +123,6 @@ RayTracer/fast:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
 .PHONY : RayTracer/fast
 
-color.o: color.cpp.o
-
-.PHONY : color.o
-
-# target to build an object file
-color.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/color.cpp.o
-.PHONY : color.cpp.o
-
-color.i: color.cpp.i
-
-.PHONY : color.i
-
-# target to preprocess a source file
-color.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/color.cpp.i
-.PHONY : color.cpp.i
-
-color.s: color.cpp.s
-
-.PHONY : color.s
-
-# target to generate assembly for a file
-color.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/color.cpp.s
-.PHONY : color.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,9 +213,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RayTracer"
-	@echo "... color.o"
-	@echo "... color.i"
-	@echo "... color.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
