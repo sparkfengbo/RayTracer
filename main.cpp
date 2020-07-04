@@ -8,7 +8,10 @@
 #include "camera.h"
 #include "material.h"
 
-
+/**
+ * https://raytracing.github.io/books/RayTracingInOneWeekend.html#diffusematerials/usinggammacorrectionforaccuratecolorintensity
+ * @return
+ */
 hittable_list random_scene() {
     hittable_list world;
 
