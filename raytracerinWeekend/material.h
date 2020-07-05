@@ -5,7 +5,7 @@
 #ifndef RAYTRACER_MATERIAL_H
 #define RAYTRACER_MATERIAL_H
 
-#include "common/ray.h"
+#include "ray.h"
 #include "hittable.h"
 
 double schlick(double cosine, double ref_idx) {

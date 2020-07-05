@@ -1,11 +1,11 @@
 #include <iostream>
-#include "common/color.h"
-#include "common/ray.h"
+#include "color.h"
+#include "ray.h"
 #include "hittable.h"
-#include "common/utils.h"
+#include "utils.h"
 #include "hittable_list.h"
 #include "sphere.h"
-#include "common/camera.h"
+#include "camera.h"
 #include "material.h"
 
 /**

@@ -5,8 +5,8 @@
 #ifndef RAYTRACER_HITTABLE_H
 #define RAYTRACER_HITTABLE_H
 
-#include "common/vec3.h"
-#include "common/ray.h"
+#include "vec3.h"
+#include "ray.h"
 #include <memory>
 
 class material;
