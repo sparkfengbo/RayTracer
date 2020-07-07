@@ -16,6 +16,8 @@
 hittable_list random_scene() {
     hittable_list world;
 
+
+
 //    auto ground_material = make_shared<lambertian>(make_shared<solid_color>(0.5, 0.5, 0.5));
 //    world.add(make_shared<sphere>(point3(0,-1000,0), 1000, ground_material));
 
@@ -68,6 +70,16 @@ hittable_list random_scene() {
     world.add(make_shared<sphere>(point3(4, 1, 0), 1.0, material3));
 
     return world;
+}
+
+hittable_list two_perlin_spheres() {
+    hittable_list objects;
+
+    auto pertext = make_shared<noise_texture>();
+    objects.add(make_shared<sphere>(point3(0,-1000,0), 1000, make_shared<lambertian>(pertext)));
+    objects.add(make_shared<sphere>(point3(0, 2, 0), 2, make_shared<lambertian>(pertext)));
+
+    return objects;
 }
 
 double hit_sphere(const point3& center, double radius, const ray& r){
@@ -150,7 +162,7 @@ int main() {
 
 
 
-    auto world = random_scene();
+    auto world = two_perlin_spheres();
 
     point3 lookfrom(13,2,3);
     point3 lookat(0,0,0);
