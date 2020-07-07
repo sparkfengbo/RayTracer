@@ -113,6 +113,14 @@ color ray_color(const ray& r, const hittable& world, int depth) {
     return (1.0-t)*color(1.0, 1.0, 1.0) + t*color(0.5, 0.7, 1.0);
 }
 
+hittable_list earth() {
+    auto earth_texture = make_shared<image_texture>("earthmap.jpg");
+    auto earth_surface = make_shared<lambertian>(earth_texture);
+    auto globe = make_shared<sphere>(point3(0,0,0), 2, earth_surface);
+
+    return hittable_list(globe);
+}
+
 
 int main() {
     const auto aspect_ratio = 16 / 9.;
@@ -122,47 +130,8 @@ int main() {
     const int max_depth = 50;
 
     std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
-//
-//    hittable_list world;
 
-    /**
-     * 1
-     */
-//    world.add(std::make_shared<sphere>(point3(0,0,-1), 0.5, make_shared<lambertian>(color(0.7, 0.3, 0.3))));
-//    world.add(std::make_shared<sphere>(point3(0,-100.5,-1), 100, make_shared<lambertian>(color(0.8, 0.8, 0.0))));
-//    world.add(std::make_shared<sphere>(point3(1,0,-1), 0.5, make_shared<metal>(color(.8,.6,.2), 0.3f)));
-//    world.add(std::make_shared<sphere>(point3(-1,0,-1), 0.5, make_shared<metal>(color(.8,.8,.8), 1.0f)));
-
-
-    /**
-     * 2
-     */
-//    world.add(std::make_shared<sphere>(point3(0,0,-1), 0.5, make_shared<lambertian>(color(0.7, 0.3, 0.3))));
-//    world.add(std::make_shared<sphere>(point3(0,-100.5,-1), 100, make_shared<lambertian>(color(0.8, 0.8, 0.0))));
-//    world.add(make_shared<sphere>(point3(1,0,-1), 0.5, make_shared<metal>(color(.8, .6, .2), 0.0)));
-//    world.add(make_shared<sphere>(point3(-1,0,-1), 0.5, make_shared<dielectric>(1.5)));
-
-
-    /**
-     * 3
-     * 10.4
-     */
-//    world.add(make_shared<sphere>(point3(0,0,-1), 0.5, make_shared<lambertian>(color(.1, .2, .5))));
-//    world.add(make_shared<sphere>(point3(0,-100.5,-1), 100, make_shared<lambertian>(color(.8,.8,0.))));
-//    world.add(make_shared<sphere>(point3(1,0,-1), 0.5, make_shared<metal>(color(.8, .6, .2), 0.3)));
-//    world.add(make_shared<sphere>(point3(-1,0,-1), 0.5, make_shared<dielectric>(1.5)));
-//    world.add(make_shared<sphere>(point3(-1,0,-1), -0.45, make_shared<dielectric>(1.5)));
-
-
-
-    /**
-     * 11
-     */
-//    camera cam(point3(-2,2,1), point3(0,0,-1), vec3(0,1,0), 90, aspect_ratio);
-
-
-
-    auto world = two_perlin_spheres();
+    auto world = earth();
 
     point3 lookfrom(13,2,3);
     point3 lookat(0,0,0);

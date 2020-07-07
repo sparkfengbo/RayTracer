@@ -18,6 +18,7 @@ set (COMMON_SRC
         ${COMMON_DIR}/ray.h
         ${COMMON_DIR}/vec3.h
         ${COMMON_DIR}/utils.h
+        ${COMMON_DIR}/std_image.h
 )
 
 set(SOURCE_IN_ONE_WEEKEEND
