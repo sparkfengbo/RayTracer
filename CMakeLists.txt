@@ -39,6 +39,7 @@ set(SOURCE_IN_NEXT_WEEK
         ${RAY_NEXT_WEEK_DIR}/moving_sphere.h
         ${RAY_NEXT_WEEK_DIR}/aabb.h
         ${RAY_NEXT_WEEK_DIR}/bvh_node.h
+        ${RAY_NEXT_WEEK_DIR}/texture.h
         )
 
 include_directories(${COMMON_DIR})
