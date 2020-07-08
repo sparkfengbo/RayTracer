@@ -52,5 +52,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/RayTracer.dir/DependInfo.cmake"
+  "CMakeFiles/RayTracerNextWeek.dir/DependInfo.cmake"
+  "CMakeFiles/RayTracerInWeekend.dir/DependInfo.cmake"
   )

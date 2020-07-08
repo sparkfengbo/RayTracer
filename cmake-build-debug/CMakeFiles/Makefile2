@@ -53,7 +53,8 @@ CMAKE_BINARY_DIR = /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/RayTracer.dir/all
+all: CMakeFiles/RayTracerNextWeek.dir/all
+all: CMakeFiles/RayTracerInWeekend.dir/all
 
 .PHONY : all
 
@@ -63,36 +64,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/RayTracer.dir/clean
+clean: CMakeFiles/RayTracerNextWeek.dir/clean
+clean: CMakeFiles/RayTracerInWeekend.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/RayTracer.dir
+# Target rules for target CMakeFiles/RayTracerNextWeek.dir
 
 # All Build rule for target.
-CMakeFiles/RayTracer.dir/all:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/depend
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target RayTracer"
-.PHONY : CMakeFiles/RayTracer.dir/all
+CMakeFiles/RayTracerNextWeek.dir/all:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/depend
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target RayTracerNextWeek"
+.PHONY : CMakeFiles/RayTracerNextWeek.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/RayTracer.dir/rule: cmake_check_build_system
+CMakeFiles/RayTracerNextWeek.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RayTracer.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RayTracerNextWeek.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/RayTracer.dir/rule
+.PHONY : CMakeFiles/RayTracerNextWeek.dir/rule
 
 # Convenience name for target.
-RayTracer: CMakeFiles/RayTracer.dir/rule
+RayTracerNextWeek: CMakeFiles/RayTracerNextWeek.dir/rule
 
-.PHONY : RayTracer
+.PHONY : RayTracerNextWeek
 
 # clean rule for target.
-CMakeFiles/RayTracer.dir/clean:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/clean
-.PHONY : CMakeFiles/RayTracer.dir/clean
+CMakeFiles/RayTracerNextWeek.dir/clean:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/clean
+.PHONY : CMakeFiles/RayTracerNextWeek.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RayTracerInWeekend.dir
+
+# All Build rule for target.
+CMakeFiles/RayTracerInWeekend.dir/all:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/depend
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target RayTracerInWeekend"
+.PHONY : CMakeFiles/RayTracerInWeekend.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RayTracerInWeekend.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RayTracerInWeekend.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/RayTracerInWeekend.dir/rule
+
+# Convenience name for target.
+RayTracerInWeekend: CMakeFiles/RayTracerInWeekend.dir/rule
+
+.PHONY : RayTracerInWeekend
+
+# clean rule for target.
+CMakeFiles/RayTracerInWeekend.dir/clean:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/clean
+.PHONY : CMakeFiles/RayTracerInWeekend.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

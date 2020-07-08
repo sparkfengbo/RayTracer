@@ -37,13 +37,14 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="RayTracer">
-				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+			<Target title="RayTracerNextWeek">
+				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracerNextWeek" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/fengbo/CLionProjects/RayTracer/common"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -52,19 +53,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracerNextWeek"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="RayTracer/fast">
-				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+			<Target title="RayTracerNextWeek/fast">
+				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracerNextWeek" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/fengbo/CLionProjects/RayTracer/common"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -73,39 +75,134 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracerNextWeek/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracerInWeekend">
+				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracerInWeekend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fengbo/CLionProjects/RayTracer/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracerInWeekend"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracerInWeekend/fast">
+				<Option output="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/RayTracerInWeekend" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fengbo/CLionProjects/RayTracer/common"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracerInWeekend/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/fengbo/CLionProjects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/camera.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/camera.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/color.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/color.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/hittable.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/ray.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/main.cpp">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/std_image.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/material.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/utils.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/ray.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/common/vec3.h">
+			<Option target="RayTracerNextWeek"/>
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/sphere.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend/hittable.h">
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/utils.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend/hittable_list.h">
+			<Option target="RayTracerInWeekend"/>
 		</Unit>
-		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/vec3.h">
-			<Option target="RayTracer"/>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend/main.cpp">
+			<Option target="RayTracerInWeekend"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend/material.h">
+			<Option target="RayTracerInWeekend"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend/sphere.h">
+			<Option target="RayTracerInWeekend"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/aabb.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/aarect.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/box.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/bvh_node.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/constant_medium.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/hittable.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/hittable_list.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/main.cpp">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/material.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/moving_sphere.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/perlin.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/sphere.h">
+			<Option target="RayTracerNextWeek"/>
+		</Unit>
+		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/raytracernextweek/texture.h">
+			<Option target="RayTracerNextWeek"/>
 		</Unit>
 		<Unit filename="/Users/fengbo/CLionProjects/RayTracer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,4 +1,7 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/fengbo/CLionProjects/RayTracer
+-- This is SOURCE dir /Users/fengbo/CLionProjects/RayTracer
+-- This is COMMON_DIR dir /Users/fengbo/CLionProjects/RayTracer/common
+-- This is RAY_WEEKEND_DIR dir /Users/fengbo/CLionProjects/RayTracer/raytracerinWeekend
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/fengbo/CLionProjects/RayTracer/cmake-build-debug

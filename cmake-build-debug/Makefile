@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RayTracer
+# Target rules for targets named RayTracerNextWeek
 
 # Build rule for target.
-RayTracer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 RayTracer
-.PHONY : RayTracer
+RayTracerNextWeek: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RayTracerNextWeek
+.PHONY : RayTracerNextWeek
 
 # fast build rule for target.
-RayTracer/fast:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
-.PHONY : RayTracer/fast
+RayTracerNextWeek/fast:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/build
+.PHONY : RayTracerNextWeek/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named RayTracerInWeekend
 
-.PHONY : main.o
+# Build rule for target.
+RayTracerInWeekend: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RayTracerInWeekend
+.PHONY : RayTracerInWeekend
+
+# fast build rule for target.
+RayTracerInWeekend/fast:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/build
+.PHONY : RayTracerInWeekend/fast
+
+raytracerinWeekend/main.o: raytracerinWeekend/main.cpp.o
+
+.PHONY : raytracerinWeekend/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.o
-.PHONY : main.cpp.o
+raytracerinWeekend/main.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/raytracerinWeekend/main.cpp.o
+.PHONY : raytracerinWeekend/main.cpp.o
 
-main.i: main.cpp.i
+raytracerinWeekend/main.i: raytracerinWeekend/main.cpp.i
 
-.PHONY : main.i
+.PHONY : raytracerinWeekend/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.i
-.PHONY : main.cpp.i
+raytracerinWeekend/main.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/raytracerinWeekend/main.cpp.i
+.PHONY : raytracerinWeekend/main.cpp.i
 
-main.s: main.cpp.s
+raytracerinWeekend/main.s: raytracerinWeekend/main.cpp.s
 
-.PHONY : main.s
+.PHONY : raytracerinWeekend/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.s
-.PHONY : main.cpp.s
+raytracerinWeekend/main.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracerInWeekend.dir/build.make CMakeFiles/RayTracerInWeekend.dir/raytracerinWeekend/main.cpp.s
+.PHONY : raytracerinWeekend/main.cpp.s
+
+raytracernextweek/main.o: raytracernextweek/main.cpp.o
+
+.PHONY : raytracernextweek/main.o
+
+# target to build an object file
+raytracernextweek/main.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/raytracernextweek/main.cpp.o
+.PHONY : raytracernextweek/main.cpp.o
+
+raytracernextweek/main.i: raytracernextweek/main.cpp.i
+
+.PHONY : raytracernextweek/main.i
+
+# target to preprocess a source file
+raytracernextweek/main.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/raytracernextweek/main.cpp.i
+.PHONY : raytracernextweek/main.cpp.i
+
+raytracernextweek/main.s: raytracernextweek/main.cpp.s
+
+.PHONY : raytracernextweek/main.s
+
+# target to generate assembly for a file
+raytracernextweek/main.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracerNextWeek.dir/build.make CMakeFiles/RayTracerNextWeek.dir/raytracernextweek/main.cpp.s
+.PHONY : raytracernextweek/main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... RayTracer"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... RayTracerNextWeek"
+	@echo "... RayTracerInWeekend"
+	@echo "... raytracerinWeekend/main.o"
+	@echo "... raytracerinWeekend/main.i"
+	@echo "... raytracerinWeekend/main.s"
+	@echo "... raytracernextweek/main.o"
+	@echo "... raytracernextweek/main.i"
+	@echo "... raytracernextweek/main.s"
 .PHONY : help
 
 

@@ -44,6 +44,7 @@ set(SOURCE_IN_NEXT_WEEK
         ${RAY_NEXT_WEEK_DIR}/perlin.h
         ${RAY_NEXT_WEEK_DIR}/aarect.h
         ${RAY_NEXT_WEEK_DIR}/box.h
+        ${RAY_NEXT_WEEK_DIR}/constant_medium.h
         )
 
 include_directories(${COMMON_DIR})
